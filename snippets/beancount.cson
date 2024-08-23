@@ -1,0 +1,20 @@
+'.source.beancount':
+	'Balance':
+		'prefix': 'balance'
+		'body': '${1:${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}} balance ${2:Assets:Account}  ${3:0.00} ${3:CUR}'
+
+	'Event':
+		'prefix': 'event'
+		'body': '${1:${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}} event "${2:Type}" "${3:Description}"'
+
+	'Note':
+		'prefix': 'note'
+		'body': '${1:${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}} note ${2:Assets:Account} "${3:Note}"'
+
+	'Transaction':
+		'prefix': 'transaction'
+		'body': """
+			${1:${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}} ${2:*} "${3:Payee}" "${4:Description}"
+				${5:Account:One}   ${6:0.00} ${7:CUR}
+				${8:Account:Two}  ${9:-0.00} ${10:CUR}
+		"""
