@@ -1,22 +1,22 @@
 {
-  "name": "beancount",
-  "main": "./lib/beancount",
-  "version": "0.1.0",
-  "description": "A package to help with maintaining a Beancount 'Plain Text Accounting' ledger",
-  "keywords": [
-	  "beancount",
-	  "ledger",
-	  "accounting",
-	  "finances"
-  ],
-  "activationCommands": {
-    "atom-workspace": "beancount:today"
-  },
-  "repository": "https://github.com/aleyoscar/pulsar-beancount",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-  }
+	"name": "beancount",
+	"main": "./lib/beancount",
+	"version": "0.1.0",
+	"description": "A package to help with maintaining a Beancount 'Plain Text Accounting' ledger",
+	"keywords": [
+		"beancount",
+		"ledger",
+		"accounting",
+		"finances"
+	],
+	"activationCommands": {
+		"atom-workspace": "beancount:today"
+	},
+	"repository": "https://github.com/aleyoscar/beancount-pulsar",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.0.0 <2.0.0"
+	},
+	"dependencies": {
+	}
 }

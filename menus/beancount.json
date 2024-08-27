@@ -1,26 +1,31 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Insert Today's Date",
-        "command": "beancount:today"
-      }
-    ]
-  },
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "beancount",
-          "submenu": [
-            {
-              "label": "Today",
-              "command": "beancount:toggle"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"context-menu": {
+		"atom-text-editor": [
+			{
+				"label": "Beancount",
+				"submenu": [
+					{
+						"label": "Insert Today's Date",
+						"command": "beancount:today"
+					}
+				]
+			}
+		]
+	},
+	"menu": [
+		{
+			"label": "Packages",
+			"submenu": [
+				{
+					"label": "Beancount",
+					"submenu": [
+						{
+							"label": "Insert Today's Date",
+							"command": "beancount:today"
+						}
+					]
+				}
+			]
+		}
+	]
 }
