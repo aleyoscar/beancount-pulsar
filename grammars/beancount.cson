@@ -1,0 +1,14 @@
+name: 'Beancount'
+scopeName: 'source.beancount'
+type: 'modern-tree-sitter'
+parser: 'tree-sitter-beancount'
+treeSitter:
+	grammar: 'tree-sitter/grammar.wasm'
+	highlightsQuery: 'tree-sitter/highlights.scm'
+	# foldsQuery: 'tree-sitter/folds.scm'
+	# indentsQuery: 'tree-sitter/indents.scm'
+	# tagsQuery: 'tree-sitter/tags.scm'
+fileTypes: ['beancount', 'bean', 'ledger']
+comments:
+	start: '; '
+	line: ';'
