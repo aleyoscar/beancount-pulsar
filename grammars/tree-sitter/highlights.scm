@@ -1,15 +1,24 @@
+[
+	(option)
+	(open)
+] @function.directive.beancount
+
 (comment) @comment.line.beancount
 
-(account) @constant.language.beancount
+(account) @function.account.beancount
 
 (date) @constant.numeric.date.beancount
 
-(tags_links) @string.quoted.double.beancount
-
 (txn) @keyword.operator.flag.beancount
 
-(string) @string.quoted.narration.beancount
+[
+	(string)
+	(narration)
+	(payee)
+] @string.quoted.beancount
 
 (amount) @constant.numeric.currency.beancount
 
-(cost_spec) @variable.other.currency.beancount
+(currency) @keyword.currency.beancount
+
+(number) @value.amount.beancount
