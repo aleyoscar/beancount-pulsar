@@ -1,0 +1,28 @@
+style: none
+template: CHANGELOG-TAG.tpl.md
+info:
+  title: CHANGELOG
+  repository_url: https://git.aleyoscar.com/emet/emet-finances
+options:
+  commits:
+    filters:
+      Type:
+        - feat
+        - fix
+        - docs
+        - refactor
+  commit_groups:
+    title_maps:
+      feat: Features
+      fix: Bug Fixes
+      docs: Documentation
+      refactor: Code Refactoring
+  header:
+    pattern: "^(\\w*)(?:\\(([\\w\\$\\.\\-\\*\\s]*)\\))?\\:\\s(.*)$"
+    pattern_maps:
+      - Type
+      - Scope
+      - Subject
+  notes:
+    keywords:
+      - BREAKING CHANGE
