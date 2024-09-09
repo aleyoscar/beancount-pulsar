@@ -7,9 +7,9 @@ v0.1.0
 ## Features
 
 - [x] [Snippets](#snippets) for various Beancount 'directives'
-- [ ] [Commands](#commands) for some Beancount tools.
+- [x] [Commands](#commands) for some Beancount tools.
 - [x] Syntax Highlighting using the [tree-sitter-beancount](https://github.com/polarmutex/tree-sitter-beancount) parser.
-- [ ] [Linter](https://github.com/aleyoscar/linter-beancount-pulsar) support for Beancount's ledger syntax.
+- [ ] Linter support for Beancount's ledger syntax.
 
 ## Snippets
 
@@ -37,8 +37,8 @@ Below is the list of available snippets for some beancount directives.
 
 ```
 <YYYY-MM-DD> <*/!> "<Payee>" "<Description>"
-	<Account:One>  <Amount> <Currency>
-	<Account:Two>  <Amount> <Currency>
+    <Account:One>  <Amount> <Currency>
+    <Account:Two>  <Amount> <Currency>
 ```
 
 ## Commands
