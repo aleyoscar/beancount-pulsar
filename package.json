@@ -1,8 +1,8 @@
 {
-	"name": "beancount",
-	"main": "./lib/beancount",
-	"version": "0.1.0",
-	"description": "A package to help with maintaining a Beancount 'Plain Text Accounting' ledger",
+	"name": "beancount-pulsar",
+	"main": "./lib/beancount-pulsar",
+	"version": "0.0.0",
+	"description": "A Pulsar package for Beancount - Plain Text Accounting",
 	"keywords": [
 		"beancount",
 		"ledger",
@@ -13,7 +13,7 @@
 		"atom-workspace": "beancount:today"
 	},
 	"repository": "https://github.com/aleyoscar/beancount-pulsar",
-	"license": "MIT",
+	"license": "GNU v3",
 	"engines": {
 		"atom": ">=1.0.0 <2.0.0"
 	},
