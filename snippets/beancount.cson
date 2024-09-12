@@ -1,7 +1,7 @@
 '.source.beancount':
 	'Balance':
 		'prefix': 'balance'
-		'body': '${1:${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}} balance ${2:Assets:Account}  ${3:0.00} ${3:CUR}'
+		'body': '${1:${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}} balance ${2:Assets:Account}  ${3:0.00} ${4:CUR}'
 
 	'Event':
 		'prefix': 'event'
