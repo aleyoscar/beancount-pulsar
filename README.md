@@ -2,8 +2,6 @@
 
 A Pulsar package for Beancount - Plain Text Accounting.
 
-v0.1.0
-
 ## Features
 
 - [x] [Snippets](#snippets) for various Beancount 'directives'
