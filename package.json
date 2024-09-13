@@ -10,12 +10,31 @@
 		"finances"
 	],
 	"activationCommands": {
-		"atom-workspace": "beancount:today"
+		"atom-workspace": [
+			"beancount:today",
+			"beancount:format"
+		]
 	},
 	"repository": "https://github.com/aleyoscar/beancount-pulsar",
 	"license": "MIT",
 	"engines": {
 		"atom": ">=1.0.0 <2.0.0"
+	},
+	"configSchema": {
+		"beanformatEnable": {
+			"title": "Enable Bean Format",
+			"description": "Whether to enable the formatter using `bean-format`. Note: `bean-format` must be installed on your system.",
+			"type": "boolean",
+			"default": true,
+			"order": 0
+		},
+		"beanformatPath": {
+			"title": "Bean Format Path",
+			"description": "If the `bean-format` executable is not in your PATH, specify the location here. For example: `/home/user/bean-format`.",
+			"type": "string",
+			"default": "bean-format",
+			"order": 1
+		}
 	},
 	"dependencies": {}
 }

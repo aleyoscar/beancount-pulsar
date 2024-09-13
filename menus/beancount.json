@@ -7,6 +7,10 @@
 					{
 						"label": "Insert Today's Date",
 						"command": "beancount:today"
+					},
+					{
+						"label": "Bean Format",
+						"command": "beancount:format"
 					}
 				]
 			}
@@ -22,6 +26,10 @@
 						{
 							"label": "Insert Today's Date",
 							"command": "beancount:today"
+						},
+						{
+							"label": "Bean Format",
+							"command": "beancount:format"
 						}
 					]
 				}

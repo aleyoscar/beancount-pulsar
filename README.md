@@ -43,9 +43,10 @@ Below is the list of available snippets for some beancount directives.
 
 Below is the list of available commands and their key bindings (if any) available from the Command Palette.
 
-| Command	| Key			| Use					|
-| ---		| ---			| ---					|
-| Today		| `Alt+B T`		| Insert today's date	|
+| Command	| Key			| Use											|
+| ---		| ---			| ---											|
+| Today		| `Alt+B T`		| Insert today's date							|
+| format	| `Alt+B F`		| Format the current file using `bean-format`	|
 
 ## Links
 
