@@ -1,6 +1,6 @@
 {
 	"name": "beancount-pulsar",
-	"main": "./lib/beancount-pulsar",
+	"main": "./lib/beancount",
 	"version": "0.1.1",
 	"description": "A Pulsar package for Beancount - Plain Text Accounting",
 	"keywords": [
