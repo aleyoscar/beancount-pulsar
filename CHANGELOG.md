@@ -1,4 +1,19 @@
 
+## v0.2.0
+
+> 2024-09-17
+
+### Bug Fixes
+
+* Notification not showing detail
+* Wrong main file. Closes #2
+
+### Features
+
+* Added bean-check command
+* Added bean-format command
+
+
 ## v0.1.1
 
 > 2024-09-12
@@ -22,4 +37,3 @@
 * Folds and indents
 * Initial syntax and scopes, thanks to @savetheclocktower
 * Skeleton Package
-
