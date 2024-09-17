@@ -21,20 +21,50 @@
 		"atom": ">=1.0.0 <2.0.0"
 	},
 	"configSchema": {
-		"beanformatEnable": {
-			"title": "Enable Bean Format",
-			"description": "Whether to enable the formatter using `bean-format`. Note: `bean-format` must be installed on your system.",
-			"type": "boolean",
-			"default": true,
-			"order": 0
-		},
-		"beanformatPath": {
-			"title": "Bean Format Path",
-			"description": "If the `bean-format` executable is not in your PATH, specify the location here. For example: `/home/user/bean-format`.",
-			"type": "string",
-			"default": "bean-format",
-			"order": 1
+		"beanformat": {
+			"title": "Bean Format",
+			"description": "Settings for the Beancount formatter. See `bean-format --help` for details.",
+			"type": "object",
+			"properties": {
+				"enable": {
+					"title": "Enable Bean Format",
+					"description": "Whether to enable the formatter. Note: `bean-format` must be installed on your system.",
+					"type": "boolean",
+					"default": true,
+					"order": 0
+				},
+				"path": {
+					"title": "Bean Format Path",
+					"description": "If the `bean-format` executable is not in your PATH, specify the location here. For example: `/home/user/bean-format`.",
+					"type": "string",
+					"default": "bean-format",
+					"order": 1
+				},
+				"column": {
+					"title": "Bean Format Currency Column",
+					"description": "Align currencies to this column. A value of `0` will align currencies automatically based on the prefix width and numbers width.",
+					"type": "integer",
+					"default": 0,
+					"order": 2
+				},
+				"prefix": {
+					"title": "Bean Format Prefix Width",
+					"description": "Force a fixed prefix width. A value of `0` will use the default prefix width.",
+					"type": "integer",
+					"default": 0,
+					"order": 3
+				},
+				"num-width": {
+					"title": "Bean Format Number Width",
+					"description": "Force a fixed numbers width. A value of `0` will use the default numbers width.",
+					"type": "integer",
+					"default": 0,
+					"order": 2
+				}
+			}
 		}
 	},
-	"dependencies": {}
+	"dependencies": {
+		"tmp": "0.2.3"
+	}
 }

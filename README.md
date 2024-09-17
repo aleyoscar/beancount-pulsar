@@ -46,7 +46,7 @@ Below is the list of available commands and their key bindings (if any) availabl
 | Command	| Key			| Use											|
 | ---		| ---			| ---											|
 | Today		| `Alt+B T`		| Insert today's date							|
-| format	| `Alt+B F`		| Format the current file using `bean-format`	|
+| Format	| `Alt+B F`		| Format the current file using `bean-format`	|
 
 ## Links
 
