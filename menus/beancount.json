@@ -11,6 +11,10 @@
 					{
 						"label": "Bean Format",
 						"command": "beancount:format"
+					},
+					{
+						"label": "Bean Check",
+						"command": "beancount:check"
 					}
 				]
 			}
@@ -30,6 +34,10 @@
 						{
 							"label": "Bean Format",
 							"command": "beancount:format"
+						},
+						{
+							"label": "Bean Check",
+							"command": "beancount:check"
 						}
 					]
 				}
