@@ -23,10 +23,18 @@
 		"atom": ">=1.0.0 <2.0.0"
 	},
 	"configSchema": {
+		"ledger": {
+			"title": "Bean Ledger",
+			"description": "Specify your 'main' ledger, if applicable. For example if you `include` your ledgers into another ledger, place the path of your main ledger here. Leave it blank to run commands on the current file. Affects the `bean-check` and `fava` commands.",
+			"type": "string",
+			"default": "",
+			"order": 0
+		},
 		"beanformat": {
 			"title": "Bean Format",
 			"description": "Settings for the Beancount formatter. See `bean-format --help` for details.",
 			"type": "object",
+			"order": 1,
 			"properties": {
 				"enable": {
 					"title": "Enable Bean Format",
@@ -69,6 +77,7 @@
 			"title": "Bean Check",
 			"description": "Settings for Bean Check. See `bean-check --help` for details.",
 			"type": "object",
+			"order": 2,
 			"properties": {
 				"enable": {
 					"title": "Enable Bean Check",
@@ -99,14 +108,10 @@
 					"default": true,
 					"order": 0
 				},
-				"ledger": {
-					"title": "Bean Check Ledger",
-					"description": "Specify the ledger you would like to run 'bean-check' on if you do not want to check the current file, for example if you `include` your ledgers into one main ledger, place the path of your main ledger here.",
 				"path": {
 					"title": "Fava Path",
 					"description": "If the `fava` executable is not in your PATH, specify the location here. For example: `/home/user/fava`.",
 					"type": "string",
-					"default": "",
 					"default": "fava",
 					"order": 1
 				},
