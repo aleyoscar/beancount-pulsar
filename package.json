@@ -13,7 +13,8 @@
 		"atom-workspace": [
 			"beancount:today",
 			"beancount:format",
-			"beancount:check"
+			"beancount:check",
+			"beancount:fava"
 		]
 	},
 	"repository": "https://github.com/aleyoscar/beancount-pulsar",
@@ -82,13 +83,53 @@
 					"type": "string",
 					"default": "bean-check",
 					"order": 1
+				}
+			}
+		},
+		"fava": {
+			"title": "Fava",
+			"description": "Settings for Fava. See `fava --help` for details.",
+			"type": "object",
+			"order": 3,
+			"properties": {
+				"enable": {
+					"title": "Enable Fava",
+					"description": "Whether to enable Fava. Note: `fava` must be installed on your system.",
+					"type": "boolean",
+					"default": true,
+					"order": 0
 				},
 				"ledger": {
 					"title": "Bean Check Ledger",
 					"description": "Specify the ledger you would like to run 'bean-check' on if you do not want to check the current file, for example if you `include` your ledgers into one main ledger, place the path of your main ledger here.",
+				"path": {
+					"title": "Fava Path",
+					"description": "If the `fava` executable is not in your PATH, specify the location here. For example: `/home/user/fava`.",
 					"type": "string",
 					"default": "",
+					"default": "fava",
+					"order": 1
+				},
+				"port": {
+					"title": "Fava Port",
+					"description": "Specify the port to use for `fava`.",
+					"type": "integer",
+					"default": 5000,
 					"order": 2
+				},
+				"browser": {
+					"title": "Open External Browser",
+					"description": "Whether to open your default browser after the server starts.",
+					"type": "boolean",
+					"default": true,
+					"order": 3
+				},
+				"delay": {
+					"title": "Fava Start Delay",
+					"description": "Due to the nature of Node's `child_process`, a small delay is needed to start the server. If the 'Server Started' notification is displaying _before_ 'Server Starting', increase the time. Time is in milliseconds.",
+					"type": "integer",
+					"default": 300,
+					"order": 4
 				}
 			}
 		}

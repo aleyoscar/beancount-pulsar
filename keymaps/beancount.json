@@ -2,6 +2,7 @@
 	"atom-workspace": {
 		"alt-b t": "beancount:today",
 		"alt-b f": "beancount:format",
-		"alt-b c": "beancount:check"
+		"alt-b c": "beancount:check",
+		"alt-b v": "beancount:fava"
 	}
 }

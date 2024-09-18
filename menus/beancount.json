@@ -15,6 +15,10 @@
 					{
 						"label": "Bean Check",
 						"command": "beancount:check"
+					},
+					{
+						"label": "Open Fava",
+						"command": "beancount:fava"
 					}
 				]
 			}
@@ -38,6 +42,10 @@
 						{
 							"label": "Bean Check",
 							"command": "beancount:check"
+						},
+						{
+							"label": "Open Fava",
+							"command": "beancount:fava"
 						}
 					]
 				}

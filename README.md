@@ -48,6 +48,7 @@ Below is the list of available commands and their key bindings (if any) availabl
 | Today		| `Alt+B T`		| Insert today's date							|
 | Format	| `Alt+B F`		| Format the current file using `bean-format`	|
 | Check		| `Alt+B C`		| Check a ledger using `bean-check`				|
+| Fava		| `Alt+B V`		| Start the `fava` server and open the browser	|
 
 ## Links
 
