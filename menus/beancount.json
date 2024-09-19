@@ -17,6 +17,10 @@
 						"command": "beancount:check"
 					},
 					{
+						"label": "Bean Query",
+						"command": "beancount:query"
+					},
+					{
 						"label": "Open Fava",
 						"command": "beancount:fava"
 					}
@@ -42,6 +46,10 @@
 						{
 							"label": "Bean Check",
 							"command": "beancount:check"
+						},
+						{
+							"label": "Bean Query",
+							"command": "beancount:query"
 						},
 						{
 							"label": "Open Fava",

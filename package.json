@@ -14,6 +14,7 @@
 			"beancount:today",
 			"beancount:format",
 			"beancount:check",
+			"beancount:query",
 			"beancount:fava"
 		]
 	},
@@ -25,7 +26,7 @@
 	"configSchema": {
 		"ledger": {
 			"title": "Bean Ledger",
-			"description": "Specify your 'main' ledger, if applicable. For example if you `include` your ledgers into another ledger, place the path of your main ledger here. Leave it blank to run commands on the current file. Affects the `bean-check` and `fava` commands.",
+			"description": "Specify your 'main' ledger, if applicable. For example if you `include` your ledgers into another ledger, place the path of your main ledger here. Leave it blank to run commands on the current file. Affects the `bean-check`, `bean-query` and `fava` commands.",
 			"type": "string",
 			"default": "",
 			"order": 0
@@ -95,11 +96,33 @@
 				}
 			}
 		},
+		"beanquery": {
+			"title": "Bean Query",
+			"description": "Settings for Bean Query. See `bean-query --help` for details.",
+			"type": "object",
+			"order": 3,
+			"properties": {
+				"enable": {
+					"title": "Enable Bean Query",
+					"description": "Whether to enable Bean Query. Note: `bean-query` must be installed on your system.",
+					"type": "boolean",
+					"default": true,
+					"order": 0
+				},
+				"path": {
+					"title": "Bean Query Path",
+					"description": "If the `bean-query` executable is not in your PATH, specify the location here. For example: `/home/user/bean-query`.",
+					"type": "string",
+					"default": "bean-query",
+					"order": 1
+				}
+			}
+		},
 		"fava": {
 			"title": "Fava",
 			"description": "Settings for Fava. See `fava --help` for details.",
 			"type": "object",
-			"order": 3,
+			"order": 4,
 			"properties": {
 				"enable": {
 					"title": "Enable Fava",
