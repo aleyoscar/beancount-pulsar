@@ -1,4 +1,19 @@
 
+## v0.4.0
+
+> 2024-09-19
+
+### Bug Fixes
+
+* Check for editor before running commands
+* Const variable being reassigned
+* Removed console.log in insertToday
+
+### Features
+
+* Added bean-query command
+
+
 ## v0.3.0
 
 > 2024-09-18
