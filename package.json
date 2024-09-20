@@ -115,6 +115,14 @@
 					"type": "string",
 					"default": "bean-query",
 					"order": 1
+				},
+				"format": {
+					"title": "Bean Query Output Format",
+					"description": "Can be of type `CSV` or `TEXT`",
+					"type": "string",
+					"default": "text",
+					"enum": ["csv", "text"],
+					"order": 2
 				}
 			}
 		},
