@@ -1,4 +1,13 @@
 
+## v0.4.1
+
+> 2024-09-20
+
+### Features
+
+* Format option for bean-query
+
+
 ## v0.4.0
 
 > 2024-09-19
