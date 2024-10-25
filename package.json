@@ -26,10 +26,30 @@
 	"configSchema": {
 		"ledger": {
 			"title": "Bean Ledger",
-			"description": "Specify your 'main' ledger, if applicable. For example if you `include` your ledgers into another ledger, place the path of your main ledger here. Leave it blank to run commands on the current file. Affects the `bean-check`, `bean-query` and `fava` commands.",
-			"type": "string",
-			"default": "",
-			"order": 0
+			"description": "Settings for your Beancount ledgers.",
+			"type": "object",
+			"order": 0,
+			"properties": {
+				"prompt": {
+					"title": "Ledger Commands",
+					"description": "Specify how to run commands, whether on the current file or on a parent file. `Prompt` will always ask. `Parent` will always run on your external file. `Local` will always run on the file currently open.",
+					"type": "string",
+					"default": "Prompt",
+					"enum": [
+						"Prompt",
+						"Parent",
+						"Current"
+					],
+					"order": 0
+				},
+				"parent": {
+					"title": "Parent Ledger",
+					"description": "Specify your parent ledger, if applicable. For example if you `include` your ledgers into another ledger, place the path of your parent ledger here. Affects the `bean-check`, `bean-query` and `fava` commands.",
+					"type": "string",
+					"default": "",
+					"order": 1
+				}
+			}
 		},
 		"beanformat": {
 			"title": "Bean Format",
