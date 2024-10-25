@@ -1,20 +1,20 @@
 '.source.beancount':
 	'Balance':
 		'prefix': 'balance'
-		'body': '${1:${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}} balance ${2:Assets:Account}  ${3:0.00} ${4:CUR}'
+		'body': '${1:${CURRENT_YEAR}}-${2:${CURRENT_MONTH}}-${3:${CURRENT_DATE}} balance ${4:Account:One}  ${5:0.00} ${6:CUR}'
 
 	'Event':
 		'prefix': 'event'
-		'body': '${1:${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}} event "${2:Type}" "${3:Description}"'
+		'body': '${1:${CURRENT_YEAR}}-${2:${CURRENT_MONTH}}-${3:${CURRENT_DATE}} event "${4:Type}" "${5:Description}"'
 
 	'Note':
 		'prefix': 'note'
-		'body': '${1:${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}} note ${2:Assets:Account} "${3:Note}"'
+		'body': '${1:${CURRENT_YEAR}}-${2:${CURRENT_MONTH}}-${3:${CURRENT_DATE}} note ${4:Account:One} "${5:Note}"'
 
 	'Transaction':
 		'prefix': 'transaction'
 		'body': """
-			${1:${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}} ${2:*} "${3:Payee}" "${4:Description}"
-				${5:Account:One}   ${6:0.00} ${7:CUR}
-				${8:Account:Two}  ${9:-0.00} ${10:CUR}
+			${1:${CURRENT_YEAR}}-${2:${CURRENT_MONTH}}-${3:${CURRENT_DATE}} ${4:*} "${5:Payee}" "${6:Description}"
+				${7:Account:One}   ${8:0.00} ${9:CUR}
+				${10:Account:Two}  ${11:-0.00} ${12:CUR}
 		"""
