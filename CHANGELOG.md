@@ -1,7 +1,21 @@
 
+## v0.5.0
+
+> 2024-10-30
+
+### Code Refactoring
+
+* Snippet dates cycle through Y-M-D
+
+### Features
+
+* Option to prompt to use parent or current ledger
+* Added 'open account' snippet
+
+
 ## v0.4.1
 
-> 2024-09-20
+> 2024-09-23
 
 ### Features
 
