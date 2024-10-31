@@ -25,7 +25,7 @@ Below is the list of available snippets for some beancount directives.
 <YYYY-MM-DD> event <Name> <Value>
 ```
 
-**note** [(docs)]()
+**note** [(docs)](https://beancount.github.io/docs/beancount_language_syntax.html#notes)
 
 ```
 <YYYY-MM-DD> note <Account> <Description>
@@ -37,6 +37,12 @@ Below is the list of available snippets for some beancount directives.
 <YYYY-MM-DD> <*/!> "<Payee>" "<Description>"
     <Account:One>  <Amount> <Currency>
     <Account:Two>  <Amount> <Currency>
+```
+
+**open** [(docs)](https://beancount.github.io/docs/beancount_language_syntax.html#open)
+
+```
+<YYYY-MM-DD> open <Account> <Currency>
 ```
 
 ## Commands
