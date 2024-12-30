@@ -15,8 +15,8 @@
 		'prefix': 'transaction'
 		'body': """
 			${1:${CURRENT_YEAR}}-${2:${CURRENT_MONTH}}-${3:${CURRENT_DATE}} ${4:*} "${5:Payee}" "${6:Description}"
-				${7:Account:One}   ${8:0.00} ${9:CUR}
-				${10:Account:Two}  ${11:-0.00} ${12:CUR}
+			    ${7:Account:One}   ${8:0.00} ${9:CUR}
+			    ${10:Account:Two}  ${11:-0.00} ${12:CUR}
 		"""
 
 	'Open':
