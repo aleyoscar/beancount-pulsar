@@ -1,4 +1,19 @@
 
+## v0.5.1
+
+> 2024-12-30
+
+### Bug Fixes
+
+* Spaces instead of tabs following beancount standard
+* Clearer error notification for bean-format
+* Bean-format truncating large files. Fixes #3
+
+### Code Refactoring
+
+* Removed logging to console
+
+
 ## v0.5.0
 
 > 2024-10-30
