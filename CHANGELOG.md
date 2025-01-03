@@ -1,4 +1,17 @@
 
+## v0.5.2
+
+> 2024-12-31
+
+### Bug Fixes
+
+* Removed beancount file scope check for beanquery
+
+### Code Refactoring
+
+* Cleanup code
+
+
 ## v0.5.1
 
 > 2024-12-30
