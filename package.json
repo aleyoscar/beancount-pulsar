@@ -15,7 +15,8 @@
 			"beancount:format",
 			"beancount:check",
 			"beancount:query",
-			"beancount:fava"
+			"beancount:fava",
+			"beancount:add"
 		]
 	},
 	"repository": "https://github.com/aleyoscar/beancount-pulsar",

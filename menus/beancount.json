@@ -23,6 +23,10 @@
 					{
 						"label": "Open Fava",
 						"command": "beancount:fava"
+					},
+					{
+						"label": "Add Transaction",
+						"command": "beancount:add"
 					}
 				]
 			}
@@ -54,6 +58,10 @@
 						{
 							"label": "Open Fava",
 							"command": "beancount:fava"
+						},
+						{
+							"label": "Add Transaction",
+							"command": "beancount:add"
 						}
 					]
 				}
