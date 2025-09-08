@@ -7,8 +7,12 @@ form, div.postings {
 	flex-direction: column;
 }
 
-fieldset.posting {
+fieldset.posting, button.posting-btn {
 	margin-left: 3em;
+}
+
+fieldset.delete {
+	margin-left: 0;
 }
 
 fieldset.buttons {
@@ -21,4 +25,8 @@ button.first {
 
 input.small {
 	max-width: 50px;
+}
+
+input.medium {
+	max-width: 120px;
 }
