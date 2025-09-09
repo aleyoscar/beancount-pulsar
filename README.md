@@ -7,7 +7,7 @@ A Pulsar package for Beancount - Plain Text Accounting.
 - [x] [Snippets](#snippets) for various Beancount 'directives'
 - [x] [Commands](#commands) for some Beancount tools.
 - [x] Syntax Highlighting using the [tree-sitter-beancount](https://github.com/polarmutex/tree-sitter-beancount) parser.
-- [ ] Add Transactions with payee and account auto-completion
+- [x] Add Transactions with payee and account auto-completion
 - [ ] Linter support for Beancount's ledger syntax.
 
 ## Snippets
