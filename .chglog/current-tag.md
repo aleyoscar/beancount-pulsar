@@ -1,14 +1,25 @@
 
-v0.1.0
+v0.6.0
 
-> 2024-09-04
+> 2025-09-09
 
 ### Bug Fixes
 
-* Update README
+* Typing in input created a posting every time
+
+### Code Refactoring
+
+* Set default value for inputs
+
+### Documentation
+
+* Add feature 'add transaction'
+* Add transaction README
 
 ### Features
 
-* Initial syntax and scopes, thanks to @savetheclocktower
-* Skeleton Package
+* Choose line ending type for bean-format
+* Update tmp to v0.2.5
+* Suggestions for payees and accounts when adding transactions
+* Insert transaction command
 
