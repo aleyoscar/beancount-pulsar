@@ -92,6 +92,18 @@
 					"type": "integer",
 					"default": 0,
 					"order": 4
+				},
+				"line-endings": {
+					"title": "Bean Format Line Ending Type",
+					"description": "Can be of type `AUTO`, `LF` or `CRLF`. AUTO (default) will use bean-format's default line endings which is the OS's default.",
+					"type": "string",
+					"default": "AUTO",
+					"enum": [
+						"AUTO",
+						"LF",
+						"CRLF"
+					],
+					"order": 5
 				}
 			}
 		},
