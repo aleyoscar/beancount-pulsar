@@ -7,6 +7,7 @@ A Pulsar package for Beancount - Plain Text Accounting.
 - [x] [Snippets](#snippets) for various Beancount 'directives'
 - [x] [Commands](#commands) for some Beancount tools.
 - [x] Syntax Highlighting using the [tree-sitter-beancount](https://github.com/polarmutex/tree-sitter-beancount) parser.
+- [x] Add Transactions with payee and account auto-completion
 - [ ] Linter support for Beancount's ledger syntax.
 
 ## Snippets
@@ -56,6 +57,7 @@ Below is the list of available commands and their key bindings (if any) availabl
 | Check		| `Alt+B C`		| Check a ledger using `bean-check`				|
 | Fava		| `Alt+B V`		| Start the `fava` server and open the browser	|
 | Query		| `Alt+B Q`		| Run `bean-query` from selected text or file	|
+| Add       | `Alt+B A`     | Add a transaction to the ledger               |
 
 ## Links
 

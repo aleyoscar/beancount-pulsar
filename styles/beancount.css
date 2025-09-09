@@ -1,0 +1,32 @@
+form, fieldset.head, fieldset.posting, div.postings {
+	display: flex;
+	gap: 0.75em;
+}
+
+form, div.postings {
+	flex-direction: column;
+}
+
+fieldset.posting, button.posting-btn {
+	margin-left: 3em;
+}
+
+fieldset.delete {
+	margin-left: 0;
+}
+
+fieldset.buttons {
+	align-self: flex-end;
+}
+
+button.first {
+	margin-right: 0.75em;
+}
+
+input.small {
+	max-width: 50px;
+}
+
+input.medium {
+	max-width: 120px;
+}
