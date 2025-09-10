@@ -1,25 +1,18 @@
 
-v0.6.0
+v0.6.1
 
-> 2025-09-09
+> 2025-09-10
 
 ### Bug Fixes
 
-* Typing in input created a posting every time
+* Normalize query string
 
 ### Code Refactoring
 
-* Set default value for inputs
-
-### Documentation
-
-* Add feature 'add transaction'
-* Add transaction README
+* Removed redundant settings checks
+* Rename bean-add.js to beanadd.js for consistency
 
 ### Features
 
-* Choose line ending type for bean-format
-* Update tmp to v0.2.5
-* Suggestions for payees and accounts when adding transactions
-* Insert transaction command
+* Prompt user for bean-query format
 
