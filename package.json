@@ -151,10 +151,11 @@
 				},
 				"format": {
 					"title": "Bean Query Output Format",
-					"description": "Can be of type `CSV` or `TEXT`",
+					"description": "Can be of type `CSV` or `TEXT`, or `PROMPT` the user to select with every query",
 					"type": "string",
-					"default": "text",
+					"default": "Prompt",
 					"enum": [
+						"Prompt",
 						"csv",
 						"text"
 					],
